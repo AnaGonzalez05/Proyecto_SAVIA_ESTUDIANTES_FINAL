@@ -1,0 +1,9 @@
+.equipo-card{
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    font-family: "Playfair Display", Georgia, serif;
+    line-height: 1.15;
+}
