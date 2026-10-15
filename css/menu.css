@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+:root {
+  --forest: #183c33;
+  --cream: #faf7f0;
+  --gold: #d7a45b;
+  --ink: #27352f;
+  --mute: #5f6963;
+}
+.platos{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--forest);
+    color: var(--cream);
+}
+
+.postre-imagen{
+    max-width: 374px;
+}
