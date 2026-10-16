@@ -40,7 +40,7 @@
     margin:0 auto;
 }
 
-@media (min-width: 374px){
+@media (max-width: 374px){
     .site-header{
         grid-template-columns: 1fr;
         justify-items: center;
@@ -53,6 +53,4 @@
     grid-auto-flow: row; 
     gap: 10px;
   }
-.postre-imagen{
-    max-width: 374px;
-}
+  }
