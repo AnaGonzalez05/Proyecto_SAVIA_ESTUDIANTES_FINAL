@@ -18,8 +18,8 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 |---|---|---|---|
-| | | | |
-
+|Ana Gonzalez |Pagina del equipo |ramaf2|feature2 primera parte -feature2 finalizado -README final |
+Rachel Santamaria|pagina de menu| ramaf1| ramaf1 menu.html
 ## Evidencias Git
 
 | Funcionalidad/corrección | PR hacia develop | Revisor | Resultado de merge / conflicto si ocurrió |
