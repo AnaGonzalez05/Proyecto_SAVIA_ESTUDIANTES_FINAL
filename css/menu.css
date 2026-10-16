@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+:root {
+  --forest: #183c33;
+  --cream: #faf7f0;
+  --gold: #d7a45b;
+  --ink: #27352f;
+  --mute: #5f6963;
+}
+
+.site-header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem 2rem;
+}
+
+.nav-links{
+    display: grid;
+    justify-content: end;
+    grid-auto-flow: column;
+}
+
+.nav-links a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.platos{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--forest);
+    color: var(--cream);
+}
+
+.feature-layout{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2rem;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+@media (min-width: 374px){
+    .site-header{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        gap: 15px;
+        
+    }
+    .nav-links {
+    justify-content: center;
+    grid-auto-flow: row; 
+    gap: 10px;
+  }
+}
